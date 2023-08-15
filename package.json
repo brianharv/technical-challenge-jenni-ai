@@ -1,0 +1,21 @@
+{
+  "name": "jenni-ai-submission",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "workspaces": [
+    "packages/client",
+    "packages/server"
+  ],
+  "private": "true",
+  "scripts": {
+    "start": "lerna run start"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "lerna": "^7.1.5",
+    "typescript": "^5.1.6"
+  }
+}
